@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  gap:50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border:1px solid rgba(0,0,0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>  
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item5">6</div>
+  <div class="grid-item">7</div>
+  <div class="grid-item">8</div>
+  <div class="grid-item">9</div>
+</div>
+
+</body>
+</html>
+
+
+
+.item1(
+      grid-column start:1;
+      grid-column end:5;
+      grid-row start:2;
+      grid-row end:6;
+
+
+
+      <!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  gap:10px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border:1px solid black
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+
+</div>
+
+</body>
+</html>
+	
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-container {
+  display: grid;
+  gap:10px;
+  grid-template-columns:auto;80px 200px auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border:1px solid red;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+ 
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+ <div>1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+
+</div>
+
+</body>
+</html>
+	
+
+29 11 2022
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>My First Javascript</h2>
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
+
+2.<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+{
+  document.getElementById("ab").innerHTML="LPU expects some better placements out of you";
+}
+
+</script>
+</head>
+<body>
+<p id="ab">Welcome to LPU</p>
+<input type="submit" onclick="abc()">
+</body>
+</html>
+
+
+3.<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p id="abc">Welcome to LPU</p>
+<input type="submit"onclick="abc()">
+<script>
+function abc()
+{
+  document.getElementById("ab").innerHTML="LPU expects some better placements out of you";
+}
+
+</script>
+</body>
+</html>
+
+
+4.<!DOCTYPE html>
+<html>
+<head>
+<script src="k.js"></script>
+</head>
+<body>
+<p id="abc">Welcome to LPU</p>
+<input type="submit"onclick="abc()">
+</body>
+</html>
+
+5 12 2022
+
+1.<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+{
+    window.alert("WELCOME TO LPU");
+    document.write("HTML Alert Dialog Box Example");
+}
+</script>
+</head>
+<body>
+<input type="submit"onclick="abc()">
+</body>
+</html>
+
+2.<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+{
+ var retVal=confirm("Do you  want to continue?");
+       if(retVal==true){
+       document.write("user wants to continue!");
+       return true;
+       }
+       else{
+           document.write("user does not want to continue!");
+           return false;
+          }
+}
+</script>
+</head>
+<body>
+<input type="submit"onclick="abc()">
+</body>
+</html>
+
+
+3.<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+{
+ var retVal=prompt("Enter your name:","your name here");
+       document.write("You have entered:"+retVal);
+
+}
+</script>
+</head>
+<body>
+<input type="submit"onclick="abc()">
+</body>
+</html>
+
+4.<!DOCTYPE html>
+<html>
+<head>
+<script>
+function abc()
+{
+ var num1=prompt("Enter first value:"," value1");
+
+ var num2=prompt("Enter second value:"," value2");
+ var sum=parseInt(num1) + parseInt(num2);
+
+       document.write("The sum is:"+sum);
+      
+
+}
+</script>
+</head>
+<body>
+<input type="submit"onclick="abc()">
+</body>
+</html>
+
+5.<!DOCTYPE html>
+<html>
+<body>
+<h1>Javascript Variables</h1>
+<p id="abc"></p>
+<script>
+var a=5;
+var b=6;
+var c=a+b;
+document.getElementById("abc").innerHTML="The total is:"+c;
+</script>
+</body>
+</html> 
+
+
+6.<!DOCTYPE html>
+<html>
+<body>
+<p>if you re-declare a Javascript variable,it will not lose its value.</p>
+<p id="abc"></p>
+<script>
+var Name="DSP";
+var Name;
+document.getElementById("abc").innerHTML=Name;
+</script>
+</body>
+</html> 
+
+6 12 2022
+
+1.<!DOCTYPE html>
+<html>
+<body>
+<p>The result of adding5+10+20:</p>
+<p id="abc"></p>
+<script>
+var x=5+10+20;
+document.getElementById("abc").innerHTML=x;
+</script>
+</body>
+</html>
+
+
+2.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+name1="Welcome to"
+name1+="Lovely Professional University";
+document.getElementById("abc").innerHTML=name1;
+</script>
+</body>
+</html> 
+
+
+
+3.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+var x=5+10;
+var y="5"+10;
+var z="Hello"+5;
+document.getElementById("abc").innerHTML=x+"<br>"+y+"<br>"+z;
+</script>
+</body>
+</html>
+
+
+
+
+12 12 2022
+
+1.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+var names=["Virat","ABD","Starc"];
+document.getElementById("abc").innerHTML=names[0];
+</script>
+</body>
+</html>
+
+
+2.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+var person={
+    firstname:"DSP",
+    secondname:" Sai Pavan",
+    age  :19
+};
+document.getElementById("abc").innerHTML=person.firstname+ person.secondname +" is"+ person.age +" years old.";
+</script>
+</body>
+</html>
+
+
+3.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+var d=new Date();
+var day=d.getDate();
+var week=d.getDay();
+var year=d.getyear();
+var hour=d.getHours();
+var milliseconds=d.getMilliseconds();
+var minutes=d.getMinutes();
+var month=d.getMonth();
+var seconds=d.getSeconds();
+var time=d.getTime();
+document.getElementById("abc").innerHTML=d+"<br>" +day+ "<br>"+weekday+"<br>"+year+"<br>"+hours+"<br>"+milliseconds+"<br>"+minutes+"<br>"+month+"<br>"+seconds+"<br>"+time
+
+</script>
+</body>
+</html>
+
+4.<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Javascript switch</h2>
+
+<p id="abc"></p>
+<script>
+let day;
+switch(new Date().getDay()) {
+  case 0:
+   day = "Sunday";
+   break;
+  case 1:
+   day = " Monday";
+   break;
+  case 2:
+   day = " Tuesday";
+   break;
+  case 3:
+   day = "Wednesday";
+   break;
+  case 4:
+   day = "Thrusday";
+   break;
+  case 5:
+   day = "Friday";
+   break;
+  case 6:
+   day = "Saturday";
+  
+}
+document.getElementById("abc").innerHTML="Today is"+ day;
+
+
+</script>
+</body>
+</html>
+
+
+
+5.<!DOCTYPE html>
+<html>
+<body>
+<p id="abc"></p>
+<script>
+var txt="";
+var person={fname:"Virat",lname:" Kohli", age:34};
+var x;
+for(x in person){
+   txt +=person[x]+"";
+}
+document.getElementById("abc").innerHTML=txt;
+
+
+</script>
+</body>
+</html>
+
+
+19 12 2022
+1.<!DOCTYPE html>
+<html>
+ <head>
+
+   <script type="text/javascript">
+
+     function.abc(){
+       alert("Welcome to the school of CSE")
+      }
+
+</script>
+</head>
+<body>
+<form>
+<input type="button"onclick="abc()" value="Test"/>
+</form>
+
+</body>
+</html>
+
+
+2.<!DOCTYPE html>
+<html>
+ <head>
+   <script type="text/javascript">
+     function over() {
+      document.write("Mouse Out");
+      }
+
+</script>
+</head>
+<body>
+ <div onmouseout="out()">
+     HELLO LPU
+</div>
+
+</body>
+</html>
+
+
+3.<!DOCTYPE html>
+<html>
+ <head>
+   <script type="text/javascript">
+
+     function abc() {
+      document.write("Pressed");
+      }
+
+</script>
+</head>
+<body>
+ <input type="text"onkeypress="abc()">
+
+</body>
+</html>
+
+3.<!DOCTYPE html>
+<html>
+<body>
+<form onreset="abc()">
+Enter name:<input type="text>
+<input type="reset">
+</form>
+
+<script>
+function abc()
+{
+
+alert("The form was reset");
+
+}
+</script>
+
+</body>
+</html>
+
